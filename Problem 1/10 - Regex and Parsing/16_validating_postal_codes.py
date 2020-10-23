@@ -15,7 +15,7 @@ regex_alternating_repetitive_digit_pair = r"([0-9])(?=[0-9]\1)"
 #                   skipping characters when the regex scans the string. For instance: in the case of the following RegEx:
 #                   ([0-9])([0-9])(\1)
 #                   the string "110000" matches the values "11[000]00", but then skips the second result, which would have been 
-#                   "110[000]" (Example taken from the description of the exercise).
+#                   "110[000]".
 
 import re
 P = input()
